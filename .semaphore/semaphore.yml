@@ -87,6 +87,7 @@ blocks:
       - Run Browser tests
   - name: 'Block #6'
     dependencies:
+      - Install Dependencies
       - Run Browser tests
       - Run Code Analysis
       - Run Security Tests
