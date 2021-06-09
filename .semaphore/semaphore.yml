@@ -93,4 +93,7 @@ blocks:
       - Run Security Tests
       - Run Unit tests
     task:
-      jobs: []
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - ls -las
